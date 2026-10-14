@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# BLAST databases (rebuild with blast_db_from_fasta / build_local_db)
+*.ndb
+*.nhr
+*.nin
+*.njs
+*.nog
+*.nos
+*.not
+*.nsq
+*.ntf
+*.nto
+*.nal
+*.ntd
+*.nti
+*_blastdb*
+
+# Generated results
+hda_primers.tsv
+strain_specific_primers*.tsv
+*_hda_primers.tsv
+*_blast_products.tsv
+*_amplicon_species.tsv
+*_primer_specificity.tsv
+*_unique_regions.tsv
